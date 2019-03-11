@@ -9,3 +9,8 @@ NAMECHEAP_SANDBOX = os.environ.get('NAMECHEAP_SANDBOX', True)
 
 # Set DIGITALOCEAN Variable
 DIGITALOCEAN_TOKEN = os.environ.get('DIGITALOCEAN_TOKEN', 'token')
+
+
+# Set SERVERPILOT Variable
+SERVERPILOT_CLIENTID = os.environ.get('SERVERPILOT_CLIENTID', 'clientid')
+SERVERPILOT_APIKEY = os.environ.get('SERVERPILOT_APIKEY', 'apikey')
